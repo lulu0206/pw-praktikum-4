@@ -1,0 +1,36 @@
+.top{
+    height : 15%;
+    width : 100%;
+    background-color: rgb(56, 59, 59);
+}
+p,h1,{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.submit{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.lesson{
+    height : 80%;
+    width : 100%
+}
+
+.footer {
+    height : 5 %;
+    width : 100%;
+    background-color : rgb(56, 59, 59);
+}
+
+.atas_kanan{
+    height:50%;
+    width : 50%;
+}
+.atas_kiri{
+    align-items: center;
+    justify-content: center;
+    
+}

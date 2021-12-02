@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuis 1 web</title>
+    <link rel = "stylesheet" href = "kuis.css">
+</head>
+<body>
+<div class = "top">
+<p>A web Page</p>
+<tr>
+
+<input type = "text" id = "url" name = "link" placeholder="https://">
+</tr>
+</div>
+<div class = "lesson">
+    <h1> Loundry UP </h1>
+ <div class = "mainbox">
+    <form action="kuis.php" method="POST">
+      <tr>
+      <td><div class = "atas_kanan"> 
+     <label for = "pakaian">pakaian</label>  
+     <input type = "text" id = "pakaian" name = "baju" placeholder="masukkan berat">
+    </br></br>
+     <label for ="selimut" >selimut</label>
+    <input type="text" id="selimut" name = "kamar" placeholder = "masukkan jumlah">   
+    </br></br>
+    <div class= "submit">
+    <input type = "submit" value = "Hitung Biaya">
+    </div>
+</div> 
+</td>
+<td>
+<div class = "atas_kiri">
+    <p>Layanan</p>
+
+    <input type ="radio" id="reguler" name = "layanan">
+    <label for = "reguler" >Reguler</label>
+</br> 
+    <input type ="radio" id="ekspres" name = "layanan">
+    <label for = "ekspres" >Ekspres</label> 
+</div>
+</td>
+</tr>
+   
+</form>
+ </div>
+</div> 
+
+<div class = "footer">
+    <p>...</p>
+
+</div> 
+</body>
+</html>

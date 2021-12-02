@@ -1,0 +1,65 @@
+/* Nama : Lu'luatul Munawwaroh , NIM : 105219012 */
+*{
+    border: ;
+}
+body{
+    background-color:aliceblue;
+    border : 1px solid black;
+    
+    
+}
+.header{
+    background-color: darkgrey;
+    height: 60px;
+    text-align: center;
+    font-size: 100%;
+}
+h1{
+    text-align: center;
+}
+.mean{
+    justify-content: space-between;
+    
+}
+
+.home{
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.button-area{
+    color : white;
+    font-size: 10px;
+    border-radius: 5px;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+
+form.Transaksi{
+    display: flex;
+    justify-content: space-between;
+    margin:20px;
+}
+
+.Transaksi{
+    justify-content: space-between;
+    margin : 15px;
+    height:230px;
+    display: flex;
+
+}
+
+.footer{
+    background-color: darkgrey;
+    height:40px;
+    
+}
+form.kiri{
+    display: flex;
+    border: 1px solid black;
+}
+form.kanan{
+    display: flex;
+    border : 1px solid black;
+}
+

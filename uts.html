@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ujian Tengah Semester</title>
+    <link rel="stylesheet" href="uts.css">
+    <!--Nama: Lu'luatul Munawwaroh, Nim : 105219012-->
+</head>
+<body>
+    <div class = "header">
+        <P>Sewa Mobil UP</P>
+    </div>
+
+    <div class = "mean">
+        <form action="uts.php" method = "post">   
+        <h1>SEWA MOBIL UP</h1>
+        <div class = "home">
+            <div class = "button-area" >
+            <tr>
+            <button type="submit">home</button>
+            <button type= "submit">Contact us</button>
+            </tr>
+            </div>
+        </div>
+
+        <div class="Transaksi">
+            <div class = "kanan">
+            <h2> Transaksi</h2>
+            <label for="cars">Merk: </label>
+            <select name="cars" id="cars">
+                <option value="Honda">Honda</option>
+                <option value="Suzuki">Suzuki</option>
+                <option value="Daihatsu">Daihatsu</option>
+                <option value="Hino">Hino</option>
+                <option value="Isuzu">Isuzu</option>
+            </select>
+        </br>
+            <label for="durasi">Durasi (hari) </label>
+            <input type="number" name="hari" id="durasi" placeholder="Masukkan durasi">
+        </br>
+            <label for="fasilitas">Fasilitas</label>
+        </br>
+        <input type="radio" name="fasilitas" value ="Tanpa BBM" checked> Tanpa BBM </br>
+        <input type="radio" name="fasilitas" value ="Dengam BBM" checked> Dengan BBM </br>
+        <input type="radio" name="fasilitas" value ="Dengan BBM dan Driver" checked> Dengan BBM dan Driver </br></br>
+        <div class ="button-are">
+        <button type = "submit">Pesan</button>
+        </div>
+        </div>
+        </div>
+
+        <div class ="Transaksi">
+            <div class = "kiri">
+            <h3>Detail Biaya</h3>
+            <div class = "atas">
+                <tr>
+                    <th>Item</th>
+                    <th>Data Pemesanan</th>
+                </tr>
+                <tr>
+                    <td> Fasilitas</td>
+                    <td>           </td>
+                </tr>
+
+                 <br>
+                 <tr>
+                    <td> Merk </td>
+                    <td>        </td>
+                </tr>
+                 <br>
+                <tr>
+                    <td>Durasi</td>
+                    <td>       </td>
+                </tr>
+            </br>
+                
+            </div>
+            <div class= "bawah">
+                <tr>
+                    <th>Item</th>
+                    <th>Biaya</th>
+                </tr>
+                <tr>
+                    <td> Fasilitas</td>
+                    <td>           </td>
+                </tr>
+
+                 <br>
+                 <tr>
+                    <td> Merk </td>
+                    <td>        </td>
+                </tr>
+                 <br>
+                <tr>
+                    <td>PPN 10%</td>
+                    <td>       </td>
+                </tr>
+            </br>
+                <tr>
+                    <td>Total</td>
+                    <td>       </td>
+                </tr>
+            </br>
+            
+        </div>
+        </div>
+    </div>
+        </form>
+     </div>
+
+
+    <div class = "footer">
+
+    </div>
+</body>
+</html>
